@@ -67,20 +67,22 @@ def monopoly_with_fourth_tier
 			},
 
 					:names =>
-								{
-									:reading_railroad => {
-					                  100
-									},
-									:pennsylvania_railroad => {
-					                  200
-									},
-									:b_and_o_railroad => {
-					                  400
-									},
-									:shortline => {
-					                  800
-					                  }
-
+					{
+						:reading_railroad=>
+						{
+							"mortgage_value"=>"$100"
+						},
+						:pennsylvania_railroad=>
+						{
+							"mortgage_value"=>"$200"
+						},
+						:b_and_o_railroad=>
+						{
+							"mortgage_value"=>"$400"
+						},
+						:shortline=>
+						{
+							"mortgage_value"=>"$800"
         } # closing
 			} # closing rent_in_dollars
 	  } # closing railroads hash
